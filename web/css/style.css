@@ -1,0 +1,245 @@
+
+
+body {
+  background-color: #fafafa;
+  margin:0;
+  padding:0;
+  width:100%;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+ /*==========================
+             Header
+    ============================*/
+.header{
+  background:url(../img/background.jpg)no-repeat top center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  padding:1em 0;
+  min-height:800px;
+}
+
+
+#favourite h2 {
+  margin: 20px 0 30px 0;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 768px) {
+  #favourite h2 {
+    font-size: 60px;
+    line-height: 36px;
+  }
+}
+
+#favourite h1 {
+  color: #eee;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-family:Times;
+  font-style:italic;
+}
+
+@media (max-width: 768px) {
+  #favourite h1 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1px;
+  }
+}
+
+#favourite h3 {
+  margin: 10px 0 10px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-style: inherit;
+}
+
+@media (max-width: 768px) {
+  #favourite h3 {
+    font-size: 12px;
+    line-height: 36px;
+  }
+}
+
+/*==========================
+             Services
+    ============================*/
+.services{
+  padding:6em 0 6em;
+}
+.services-column{
+  text-align:center;
+}
+.services-column h3{
+  font-family: 'Lato', sans-serif;
+  text-decoration:none;
+  font-weight:700;
+  font-size:20px;
+  color: #000;
+  margin: 0;
+  padding: 10px 0 5px;
+}
+.services-column p{
+  font-family: 'Lato', sans-serif;
+  font-weight:400;
+  font-size: 14px;
+  margin-top: 10px;
+} 
+
+
+.img-round{
+  width:96px;
+  height:96px;
+  text-align:center;
+  padding:16px 0;
+  margin:0 auto;
+  border:2px solid #000;
+  border-radius:700px;
+  -webkit-border-radius:700px;
+  -moz-border-radius:700px;
+  -o-border-radius:700px;}
+
+
+span.line-red{
+  width:28%;
+  height:1px;
+  background:red;
+  display: block;
+  margin:0 auto;
+}
+
+/*==========================
+          Phone App
+    ============================*/
+.phone{
+  background:#c4c4c4;
+  padding:1em 0 0 0;
+}
+
+.phone h4{
+  font-weight:700;
+  font-size:20px;
+  color: #000;
+}
+.phone p{
+  padding:4px 0 10px 0;
+  font-weight:400;
+  font-size:14px;
+}
+ul.icon{
+  padding:0;
+  margin:0;
+}
+ul.icon li{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+}
+i.icon1{
+  width:129px;
+  height:51px;
+  background:url(../img/appstore.png)no-repeat;
+  display: block;
+  cursor:pointer;
+}
+i.icon2{
+  width:129px;
+  height:51px;
+  background:url(../img/googleplay.png)no-repeat;
+  display: block;
+  cursor:pointer;
+}
+
+/*==========================
+          Reviews carousel
+    ============================*/
+.slide-img{
+  padding:72px 0 71px;
+  position:relative;
+  background: url(../img/slide-bg.jpg) no-repeat center;
+  }
+
+.img-cercle{
+  width:100px;
+  height:100px;
+  margin:0 auto;
+  border-radius:800px;
+  -webkit-border-radius:800px;
+  -moz-border-radius:800px;
+  -o-border-radius:800px;
+  border:6px solid #948b93;
+}
+
+
+/*==========================
+          Cuisines
+    ============================*/
+
+.sous-col {
+  position: relative;
+  width: 111%;
+   
+}
+
+
+
+.image {
+  display: block;
+  width: 110%;
+  height: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+.sous-col:hover .image {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
+
+
+
+
+.nombre h4{
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
+  font-size:36px;
+  color:#000;
+  margin:0;
+}
+.nombre p{
+  font-family: 'Lato', sans-serif;
+  font-weight:400;
+  font-size:16px;
+}
+/*==========================
+          footer
+    ============================*/
+.line{
+
+  background:#595858;
+  display: block;
+  margin:0 auto
+}
+
+
+
